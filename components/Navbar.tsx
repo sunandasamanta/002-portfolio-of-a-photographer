@@ -4,16 +4,16 @@ export default function Navbar() {
   return (
     <nav className="w-full text-md content-center sticky p-10 flex justify-between">
         <div className="flex gap-4">
-            <Link href="/">
+            <Link target="_blank" href="https://www.instagram.com/bakshionfilms/">
                 Home
             </Link>
-            <Link href="/about">
+            <Link href="https://www.instagram.com/bakshionfilms/">
                 About
             </Link>
         </div>
         <div className="">
-            <Link href="/">
-                Sunanda Samanta
+            <Link target="_blank" href="https://www.instagram.com/bakshionfilms/">
+                bakshionfilms
             </Link>
         </div>
     </nav>
