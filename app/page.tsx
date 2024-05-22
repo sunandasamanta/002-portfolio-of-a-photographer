@@ -18,9 +18,9 @@ export default function Home() {
     <main className="relative min-h-screen">
       <Navbar />
       <div className="flex w-full xs:flex-wrap">
-        <Image className="min-w-[300px]" src={sadhuBaba2} alt="Sadhu Baba 2"/>
-        <Image className="min-w-[300px]" src={pathik} alt="Pathik" />
-        <Image className="min-w-[300px] md:hidden" src={sadhuBaba} alt="Sadhu Baba" />
+        <Image className="xs:p-2 min-w-[300px]" src={sadhuBaba2} alt="Sadhu Baba 2"/>
+        <Image className="xs:p-2 min-w-[300px]" src={pathik} alt="Pathik" />
+        <Image className="xs:p-2 min-w-[300px] md:hidden" src={sadhuBaba} alt="Sadhu Baba" />
       </div>
       <div className="flex w-full justify-center absolute md:bottom-[10%] py-10">
         <Button text="Load More!" />
